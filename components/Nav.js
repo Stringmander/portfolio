@@ -4,15 +4,15 @@ const links = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#portfolio", label: "Projects" },
-  { href: "#contact", label: "Contact" }
-].map(link => ({
+  { href: "#socials", label: "Connect" },
+].map((link) => ({
   ...link,
-  key: `nav-link-${link.href}-${link.label}`
+  key: `nav-link-${link.href}-${link.label}`,
 }));
 
 const Nav = () => {
   useEffect(() => {
-    window.onscroll = function() {
+    window.onscroll = function () {
       toggleSticky();
     };
 

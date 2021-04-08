@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import Head from 'next/head';
-import ScrollAnimation from 'react-animate-on-scroll';
+import React, { useState, useEffect } from "react";
+import Head from "next/head";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import {
   mdiSpeedometer,
@@ -10,16 +10,16 @@ import {
   mdiGithubCircle,
   mdiLinkedin,
   mdiTwitter,
-} from '@mdi/js';
+} from "@mdi/js";
 
-import Nav from '../components/Nav';
-import Hero from '../components/Hero';
-import SectionHeading from '../components/SectionHeading';
-import Bullet from '../components/Bullet';
-import SkillBullet from '../components/SkillBullet';
-import PortfolioCard from '../components/PortfolioCard';
-import ContactForm from '../components/ContactForm';
-import SocialIcon from '../components/SocialIcon';
+import Nav from "../components/Nav";
+import Hero from "../components/Hero";
+import SectionHeading from "../components/SectionHeading";
+import Bullet from "../components/Bullet";
+import SkillBullet from "../components/SkillBullet";
+import PortfolioCard from "../components/PortfolioCard";
+import ContactForm from "../components/ContactForm";
+import SocialIcon from "../components/SocialIcon";
 
 const Home = () => {
   const [viewportWidth, setViewportWidth] = useState(null);
@@ -251,38 +251,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <section id="contact" className="content-section bg-indigo-800 pt-0">
-        <svg
-          className="mb-12"
-          preserveAspectRatio="none"
-          viewBox="0 0 100 102"
-          height="75"
-          width="100%"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M0 0 L50 100 L100 0 Z" fill="#eff5ee"></path>
-        </svg>
-
-        <div className="container mx-auto">
-          <SectionHeading
-            title="Contact"
-            animationDirection="Left"
-            color="white"
-          />
-          <ScrollAnimation animateIn="fadeInRight" animateOnce>
-            <h3 className="text-center text-teal-300 -mt-4 mb-16">
-              Have questions or want to collaborate?
-            </h3>
-          </ScrollAnimation>
-
-          <ScrollAnimation animateIn="zoomIn" animateOnce>
-            <ContactForm />
-          </ScrollAnimation>
-        </div>
-      </section>
-      <footer className="pt-16 pb-12 bg-indigo-900">
+      <footer id="socials" className="pt-16 pb-12 bg-indigo-900">
         <div className="flex justify-center mb-12">
           <SocialIcon
             href="https://github.com/stringmander"
@@ -293,7 +262,7 @@ const Home = () => {
             icon={mdiLinkedin}
           />
           <SocialIcon
-            href="https://twitter.com/NickRus93469915"
+            href="https://twitter.com/Stringmander7"
             icon={mdiTwitter}
           />
         </div>
