@@ -18,15 +18,15 @@ import SectionHeading from "../components/SectionHeading";
 import Bullet from "../components/Bullet";
 import SkillBullet from "../components/SkillBullet";
 import PortfolioCard from "../components/PortfolioCard";
-import ContactForm from "../components/ContactForm";
 import SocialIcon from "../components/SocialIcon";
 
 const Home = () => {
   const [viewportWidth, setViewportWidth] = useState(null);
   if (process.browser) {
-    useEffect(() => setViewportWidth(document.children[0].clientWidth), [
-      document.children[0].clientWidth,
-    ]);
+    useEffect(
+      () => setViewportWidth(document.children[0].clientWidth),
+      [document.children[0].clientWidth]
+    );
   }
 
   return (
