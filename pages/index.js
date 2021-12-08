@@ -181,6 +181,14 @@ const Home = () => {
           <div className="grid grid-cols-2 lg:grid-cols-3">
             <PortfolioCard
               cardKey="1"
+              title="RotomDB"
+              projectStack="React"
+              githubHref="https://github.com/Blind-Optimism/RotomDB"
+              deployedHref="https://rotomdb.herokuapp.com/"
+              bgImgPath="/img/portfolio/rotomdb.png"
+            />
+            <PortfolioCard
+              cardKey="2"
               title="Gourmand"
               projectStack="React"
               githubHref="https://github.com/stringmander/gourmand"
@@ -188,7 +196,7 @@ const Home = () => {
               bgImgPath="/img/portfolio/gourmand.jpg"
             />
             <PortfolioCard
-              cardKey="2"
+              cardKey="3"
               title="YouTube Search"
               projectStack="React"
               githubHref="https://github.com/stringmander/react-youtube-search"
@@ -197,7 +205,7 @@ const Home = () => {
               delay={viewportWidth > 640 ? 250 : 0}
             />
             <PortfolioCard
-              cardKey="3"
+              cardKey="4"
               title="Unsplash Search"
               projectStack="React"
               githubHref="https://github.com/stringmander/react-unsplash-search"
@@ -206,7 +214,7 @@ const Home = () => {
               delay={viewportWidth > 640 ? 500 : 0}
             />
             <PortfolioCard
-              cardKey="4"
+              cardKey="5"
               title="Season Detector"
               projectStack="React"
               githubHref="https://github.com/stringmander/react-hooks-seasons-app"
@@ -214,7 +222,7 @@ const Home = () => {
               bgImgPath="/img/portfolio/seasons-hooks.jpg"
             />
             <PortfolioCard
-              cardKey="5"
+              cardKey="6"
               title="Translate Demo"
               projectStack="React"
               githubHref="https://github.com/stringmander/react-translate-form"
@@ -223,7 +231,7 @@ const Home = () => {
               delay={viewportWidth > 640 ? 250 : 0}
             />
             <PortfolioCard
-              cardKey="6"
+              cardKey="7"
               title="Redux Blog Demo"
               projectStack="React Redux"
               githubHref="https://github.com/stringmander/react-redux-blog"
@@ -232,7 +240,7 @@ const Home = () => {
               delay={viewportWidth > 640 ? 500 : 0}
             />
             <PortfolioCard
-              cardKey="7"
+              cardKey="8"
               title="Budgety"
               projectStack="JavaScript"
               githubHref="https://github.com/stringmander/budgety"
@@ -240,7 +248,7 @@ const Home = () => {
               bgImgPath="/img/portfolio/budgety.jpg"
             />
             <PortfolioCard
-              cardKey="8"
+              cardKey="9"
               title="Pig Game"
               projectStack="JavaScript"
               githubHref="https://github.com/stringmander/dom-pig-game"
